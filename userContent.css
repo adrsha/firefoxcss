@@ -1,0 +1,24 @@
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+  *{
+    border:none !important;
+  }
+    .click-target-container *, .top-sites-list * {
+        color: #F7ECE4 !important ;
+    }
+
+    body::before {
+        content: "" ;
+        z-index: -1 ;
+        position: fixed ;
+        top: 0 ;
+        left: 0 ;
+        background: #11111B no-repeat url() center ;
+        background-size: cover ;
+        width: 100vw ;
+        height: 100vh ;
+    }
+}
+@-moz-document url(about:newtab), url(about:home), url(about:privatebrowsing) { 
+/* Changes the logo on the about:home screen */
+.logo {background-image: url("images/vicefox.png") !important;}
+.wordmark { display: none !important; }

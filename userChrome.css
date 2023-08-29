@@ -1,0 +1,22 @@
+/* @import "./autohide_menubar.css"; */
+/* @import "./autohide_sidebar.css"; */
+@import "./autohide_maintoolbar.css";
+@import "./buttons_glow.css";
+@import "./roundedtabs.css";
+@import "./compact_urlbar.css";
+@import "./uiChanges.css";
+/* @import "./autohide_tabstoolbar.css"; */
+
+/* Remove the pesky line in between the page and the toolbars*/
+*{
+  border: 0px !important;
+  outline: none;
+  box-shadow : none;
+}
+
+/* Set blank page background-color */
+/* Uses color from theme_colors if available */
+#tabbrowser-tabpanels {
+  background-color: var(--uc-light-bkgnd-color, #11111B !important;
+}
+

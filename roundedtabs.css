@@ -1,0 +1,19 @@
+.tabbrowser-tab {
+  box-shadow: none;
+}
+
+.tabbrowser-tab:hover > stack > .tab-background,
+.tab-background[selected] {
+  background-color: #1e1e2e !important;
+  border-radius: 12px !important;
+}
+
+/* OPTIONAL - Make some of the buttons in tabs toolbar rounded, which might look nicer especially with large curve size */
+@supports -moz-bool-pref("userchrome.curved_tabs.round-buttons.enabled") {
+  #tabs-newtab-button > .toolbarbutton-icon,
+  #TabsToolbar #new-tab-button > .toolbarbutton-icon,
+  #alltabs-button > .toolbarbutton-badge-stack,
+  .tab-close-button {
+    border-radius: 30px !important;
+  }
+}

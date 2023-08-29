@@ -1,0 +1,18 @@
+#nav-bar-customization-target,
+#nav-bar-overflow-button,
+#PanelUI-button {
+  background-color: transparent !important;
+}
+
+#nav-bar {
+  background-color: #11111b !important;
+}
+#urlbar-background {
+  background-color: #1e1e2e !important;
+}
+#urlbar,
+#urlbar-background,
+#urlbar-container {
+  border-radius: 12px !important;
+  outline: none !important;
+}
